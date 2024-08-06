@@ -107,9 +107,11 @@ function loadDisclaimer() {
         .then(html => {
             const disclaimerElement = document.getElementById('disclaimer');
             disclaimerElement.innerHTML = html;
-            document.getElementById('disclaimerToggle').addEventListener('click', () => {
+            const disclaimerToggle = document.getElementById('disclaimerToggle');
+            disclaimerToggle.addEventListener('click', () => {
                 const isHidden = disclaimerElement.style.display === 'none';
                 disclaimerElement.style.display = isHidden ? 'block' : 'none';
+                disclaimerToggle.textContent = isHidden ? 'Hide Disclaimer' : 'Show Disclaimer';
             });
         })
         .catch(error => {
