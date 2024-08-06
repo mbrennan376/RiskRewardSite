@@ -1,0 +1,65 @@
+[
+  {
+    "TickerSymbol": "AEHR",
+    "CompanyName": "Aehr Test Systems",
+    "UpdatedDate": "2024-08-03",
+    "ChartFilename": "charts/AEHR.jpg",
+    "Comments": ""
+  },
+  {
+    "TickerSymbol": "ALAR",
+    "CompanyName": "Alarum Technologies Ltd",
+    "UpdatedDate": "2024-08-03",
+    "ChartFilename": "charts/ALAR.jpg",
+    "Comments": ""
+  },
+  {
+    "TickerSymbol": "ATGN",
+    "CompanyName": "Altigen Communications Inc",
+    "UpdatedDate": "2024-08-03",
+    "ChartFilename": "charts/ATGN.jpg",
+    "Comments": ""
+  },
+  {
+    "TickerSymbol": "ctlp",
+    "CompanyName": "Cantaloupe Inc",
+    "UpdatedDate": "2024-08-03",
+    "ChartFilename": "charts/ctlp.jpg",
+    "Comments": ""
+  },
+  {
+    "TickerSymbol": "EVLV",
+    "CompanyName": "Evolv Technologies Holdings Inc - Class A",
+    "UpdatedDate": "2024-08-03",
+    "ChartFilename": "charts/EVLV.jpg",
+    "Comments": ""
+  },
+  {
+    "TickerSymbol": "GKPRF",
+    "CompanyName": "Gatekeeper Systems Inc",
+    "UpdatedDate": "2024-08-03",
+    "ChartFilename": "charts/GKPRF.jpg",
+    "Comments": ""
+  },
+  {
+    "TickerSymbol": "OSSIF",
+    "CompanyName": "OneSoft Solutions Inc",
+    "UpdatedDate": "2024-08-03",
+    "ChartFilename": "charts/OSSIF.jpg",
+    "Comments": ""
+  },
+  {
+    "TickerSymbol": "SMSI",
+    "CompanyName": "Smith Micro Software Inc",
+    "UpdatedDate": "2024-08-03",
+    "ChartFilename": "charts/SMSI.jpg",
+    "Comments": ""
+  },
+  {
+    "TickerSymbol": "TPCS",
+    "CompanyName": "Techprecision Corp",
+    "UpdatedDate": "2024-08-03",
+    "ChartFilename": "charts/TPCS.jpg",
+    "Comments": ""
+  }
+]

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risk/Reward Charts</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="layout"></div>
+    <div class="container">
+        <div class="thumbnails">
+            <div class="thumbnail-container" id="thumbnailContainer"></div>
+        </div>
+        <div class="details" id="details">
+            <div id="defaultMessage" class="default-message">Select a chart to view details</div>
+        </div>
+    </div>
+    <div id="disclaimer" class="disclaimer-content"></div>
+    <button id="disclaimerToggle" class="disclaimer-toggle">Disclaimer</button>
+    <div class="fullscreen-overlay" id="fullscreenOverlay">
+        <div class="close-btn" id="closeBtn">&times;</div>
+        <img id="fullscreenImg" src="" alt="Full Screen Chart">
+    </div>
+    <script src="js/scripts.js"></script>
+    <script>
+        loadLayout();
+        loadCharts();
+        loadDisclaimer();
+    </script>
+</body>
+</html>
