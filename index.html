@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Risk/Reward Charts</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <!-- Add a cache-busting query string with a timestamp to the CSS file -->
+    <link rel="stylesheet" href="css/styles.css?v=<?= time() ?>">
 </head>
 <body>
     <div id="layout"></div>
@@ -22,7 +23,8 @@
         <div class="close-btn" id="closeBtn">&times;</div>
         <img id="fullscreenImg" src="" alt="Full Screen Chart">
     </div>
-    <script src="js/scripts.js"></script>
+    <!-- Add a cache-busting query string with a timestamp to the JavaScript file -->
+    <script src="js/scripts.js?v=<?= time() ?>"></script>
     <script>
         loadLayout();
         loadCharts();

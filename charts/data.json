@@ -1,65 +1,128 @@
 [
   {
     "TickerSymbol": "AEHR",
-    "CompanyName": "Aehr Test Systems",
-    "UpdatedDate": "2024-08-03",
-    "ChartFilename": "charts/AEHR.jpg",
+    "CompanyName": "",
+    "UpdatedDate": "2024-08-09",
+    "ChartFilename": "charts/AEHR.PNG",
     "Comments": ""
   },
   {
     "TickerSymbol": "ALAR",
-    "CompanyName": "Alarum Technologies Ltd",
-    "UpdatedDate": "2024-08-03",
-    "ChartFilename": "charts/ALAR.jpg",
+    "CompanyName": "",
+    "UpdatedDate": "2024-08-09",
+    "ChartFilename": "charts/ALAR.PNG",
     "Comments": ""
   },
   {
     "TickerSymbol": "ATGN",
-    "CompanyName": "Altigen Communications Inc",
-    "UpdatedDate": "2024-08-03",
-    "ChartFilename": "charts/ATGN.jpg",
+    "CompanyName": "",
+    "UpdatedDate": "2024-08-16",
+    "ChartFilename": "charts/ATGN.png",
     "Comments": ""
   },
   {
-    "TickerSymbol": "ctlp",
-    "CompanyName": "Cantaloupe Inc",
-    "UpdatedDate": "2024-08-03",
-    "ChartFilename": "charts/ctlp.jpg",
+    "TickerSymbol": "CELH",
+    "CompanyName": "",
+    "UpdatedDate": "2024-08-09",
+    "ChartFilename": "charts/CELH.PNG",
+    "Comments": ""
+  },
+  {
+    "TickerSymbol": "CTLP",
+    "CompanyName": "",
+    "UpdatedDate": "2024-08-09",
+    "ChartFilename": "charts/CTLP.PNG",
     "Comments": ""
   },
   {
     "TickerSymbol": "EVLV",
-    "CompanyName": "Evolv Technologies Holdings Inc - Class A",
-    "UpdatedDate": "2024-08-03",
-    "ChartFilename": "charts/EVLV.jpg",
+    "CompanyName": "",
+    "UpdatedDate": "2024-08-16",
+    "ChartFilename": "charts/EVLV.PNG",
+    "Comments": ""
+  },
+  {
+    "TickerSymbol": "GEODF",
+    "CompanyName": "",
+    "UpdatedDate": "2024-08-16",
+    "ChartFilename": "charts/GEODF.PNG",
     "Comments": ""
   },
   {
     "TickerSymbol": "GKPRF",
-    "CompanyName": "Gatekeeper Systems Inc",
-    "UpdatedDate": "2024-08-03",
-    "ChartFilename": "charts/GKPRF.jpg",
+    "CompanyName": "",
+    "UpdatedDate": "2024-08-16",
+    "ChartFilename": "charts/GKPRF.PNG",
+    "Comments": ""
+  },
+  {
+    "TickerSymbol": "INFU",
+    "CompanyName": "",
+    "UpdatedDate": "2024-08-09",
+    "ChartFilename": "charts/INFU.PNG",
+    "Comments": ""
+  },
+  {
+    "TickerSymbol": "IRIX",
+    "CompanyName": "",
+    "UpdatedDate": "2024-08-09",
+    "ChartFilename": "charts/IRIX.PNG",
+    "Comments": ""
+  },
+  {
+    "TickerSymbol": "ITMSF",
+    "CompanyName": "",
+    "UpdatedDate": "2024-08-09",
+    "ChartFilename": "charts/ITMSF.PNG",
+    "Comments": ""
+  },
+  {
+    "TickerSymbol": "KRKNF",
+    "CompanyName": "",
+    "UpdatedDate": "2024-08-16",
+    "ChartFilename": "charts/KRKNF.PNG",
     "Comments": ""
   },
   {
     "TickerSymbol": "OSSIF",
-    "CompanyName": "OneSoft Solutions Inc",
-    "UpdatedDate": "2024-08-03",
-    "ChartFilename": "charts/OSSIF.jpg",
+    "CompanyName": "",
+    "UpdatedDate": "2024-08-09",
+    "ChartFilename": "charts/OSSIF.PNG",
     "Comments": ""
   },
   {
-    "TickerSymbol": "SMSI",
-    "CompanyName": "Smith Micro Software Inc",
-    "UpdatedDate": "2024-08-03",
-    "ChartFilename": "charts/SMSI.jpg",
+    "TickerSymbol": "PESI",
+    "CompanyName": "",
+    "UpdatedDate": "2024-08-09",
+    "ChartFilename": "charts/PESI.PNG",
+    "Comments": ""
+  },
+  {
+    "TickerSymbol": "QIPT",
+    "CompanyName": "",
+    "UpdatedDate": "2024-08-16",
+    "ChartFilename": "charts/QIPT.PNG",
     "Comments": ""
   },
   {
     "TickerSymbol": "TPCS",
-    "CompanyName": "Techprecision Corp",
-    "UpdatedDate": "2024-08-03",
-    "ChartFilename": "charts/TPCS.jpg",
+    "CompanyName": "",
+    "UpdatedDate": "2024-08-09",
+    "ChartFilename": "charts/TPCS.PNG",
+    "Comments": ""
+  },
+  {
+    "TickerSymbol": "TSSI",
+    "CompanyName": "",
+    "UpdatedDate": "2024-08-16",
+    "ChartFilename": "charts/TSSI.PNG",
+    "Comments": ""
+  },
+  {
+    "TickerSymbol": "VTSI",
+    "CompanyName": "",
+    "UpdatedDate": "2024-08-16",
+    "ChartFilename": "charts/VTSI.PNG",
     "Comments": ""
   }
 ]

@@ -1,5 +1,5 @@
 function loadLayout() {
-    fetch('layout.html')
+    fetch('layout.html?v=' + new Date().getTime())
         .then(response => response.text())
         .then(html => {
             document.getElementById('layout').innerHTML = html;
@@ -19,7 +19,7 @@ function loadMenu() {
         });
     }
 
-    fetch('menu.json')
+    fetch('menu.json?v=' + new Date().getTime())
         .then(response => response.json())
         .then(menuData => {
             const menuContent = document.getElementById('menuContent');
@@ -35,7 +35,7 @@ function loadMenu() {
                 menuContent.appendChild(menuItem);
             });
 
-            fetch('content.html')
+            fetch('content.html?v=' + new Date().getTime())
                 .then(response => response.text())
                 .then(htmlContent => {
                     const menuFooter = document.createElement('div');
@@ -50,7 +50,7 @@ function loadMenu() {
 }
 
 function loadCharts() {
-    fetch('data.json')
+    fetch('data.json?v=' + new Date().getTime())
         .then(response => response.json())
         .then(data => {
             const thumbnailContainer = document.getElementById('thumbnailContainer');
@@ -69,14 +69,14 @@ function loadCharts() {
                 wrapper.classList.add('thumbnail-wrapper');
 
                 const img = document.createElement('img');
-                img.src = chart['ChartFilename'];
+                img.src = chart['ChartFilename'] + '?v=' + new Date().getTime();
                 img.classList.add('thumbnail');
                 img.alt = `${chart['TickerSymbol']} - ${chart['CompanyName']}`;
                 img.addEventListener('click', () => {
                     details.innerHTML = `
                         <div class="chart-title">${chart['TickerSymbol']} - ${chart['CompanyName']}</div>
                         <div class="chart-date">Updated: ${chart['UpdatedDate']}</div>
-                        <img class="chart-img" src="${chart['ChartFilename']}" alt="${chart['TickerSymbol']} - ${chart['CompanyName']}">
+                        <img class="chart-img" src="${chart['ChartFilename']}?v=${new Date().getTime()}" alt="${chart['TickerSymbol']} - ${chart['CompanyName']}">
                         <div class="chart-comments">${chart['Comments']}</div>
                     `;
                     const detailImg = details.querySelector('.chart-img');
@@ -102,7 +102,7 @@ function loadCharts() {
 }
 
 function loadDisclaimer() {
-    fetch('disclaimer.html')
+    fetch('disclaimer.html?v=' + new Date().getTime())
         .then(response => response.text())
         .then(html => {
             const disclaimerElement = document.getElementById('disclaimer');
