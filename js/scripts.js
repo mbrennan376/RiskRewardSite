@@ -74,16 +74,17 @@ function renderActions(){
   const list=$('actionsList'),items=requiredActions();$('actionsSummary').textContent=items.length?`${items.length} holding${items.length===1?' is':'s are'} outside your ${app.portfolio.alertThresholdPercent}% target tolerance.`:'Every configured holding is within your target tolerance.';
   if(!items.length){list.replaceChildren(text('div','No actions required','actions-empty'));return;}
   const shell=document.createElement('div');shell.className='actions-table-shell';const table=document.createElement('table');table.className='actions-table';
-  const head=document.createElement('thead'),headRow=document.createElement('tr');['Action','Ticker','Current','Target','Difference','Multiplier',''].forEach(label=>headRow.append(text('th',label)));head.append(headRow);
+  const head=document.createElement('thead'),headRow=document.createElement('tr');['Action','Ticker','Chart','Current','Target','Difference','Multiplier',''].forEach(label=>headRow.append(text('th',label)));head.append(headRow);
   const body=document.createElement('tbody');items.forEach(({chart,quote,holding,target})=>{
     const row=document.createElement('tr');row.className=target.action;const actionCell=document.createElement('td');actionCell.dataset.label='Action';actionCell.append(text('span',target.action.toUpperCase(),`action-label ${target.action}`));
     const listing=holdingListing(chart,holding),tickerCell=document.createElement('td');tickerCell.dataset.label='Ticker';tickerCell.append(text('strong',listing.symbol),text('small',listing.symbol===chart.displayTickerSymbol?chart.companyName:`${chart.companyName} · chart ${chart.displayTickerSymbol}`));
+    const chartCell=document.createElement('td');chartCell.dataset.label='Chart';const chartButton=document.createElement('button');chartButton.type='button';chartButton.className='action-chart-thumb';chartButton.setAttribute('aria-label',`Open ${chart.displayTickerSymbol} chart full screen`);const chartImage=document.createElement('img');chartImage.src=chart.chartFilename;chartImage.alt='';chartButton.append(chartImage);chartButton.onclick=()=>openLightbox({src:chart.chartFilename,alt:`${chart.displayTickerSymbol} risk/reward chart`});chartCell.append(chartButton);
     const heldCell=document.createElement('td');heldCell.dataset.label='Current';heldCell.append(text('strong',`${shares(holding.sharesHeld)} shares`),text('small',portfolioMoney(target.currentAmount)));
     const targetCell=document.createElement('td');targetCell.dataset.label='Target';targetCell.append(text('strong',`${shares(target.targetShares)} shares`),text('small',portfolioMoney(target.targetAmount)));
     const differenceCell=document.createElement('td');differenceCell.dataset.label='Difference';differenceCell.append(text('strong',`${signedShares(target.differenceShares)} shares`),text('small',signedPortfolioMoney(target.differenceAmount)));differenceCell.title=`Calculated at the current ${money(quote?.price,quote?.currency??chart.currency)} ${listing.symbol} quote`;
     const multiplierCell=document.createElement('td');multiplierCell.dataset.label='Multiplier';multiplierCell.append(text('strong',`${holding.multiplier.toFixed(1)}×`));
     const updateCell=document.createElement('td');updateCell.className='action-update-cell';const update=text('button','Update','action-update');update.type='button';update.onclick=()=>openPortfolioDialog(chart);updateCell.append(update);
-    row.append(actionCell,tickerCell,heldCell,targetCell,differenceCell,multiplierCell,updateCell);body.append(row);
+    row.append(actionCell,tickerCell,chartCell,heldCell,targetCell,differenceCell,multiplierCell,updateCell);body.append(row);
   });
   table.append(head,body);shell.append(table);list.replaceChildren(shell);
 }

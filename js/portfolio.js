@@ -1,6 +1,6 @@
 (function(root){
   'use strict';
-  const storageKey='riskReward.portfolio.v1',legacyTotalKey='riskReward.totalInvestedCash',defaultThreshold=10;
+  const storageKey='riskReward.portfolio.v1',legacyTotalKey='riskReward.totalInvestedCash',defaultThreshold=30;
   const finite=value=>value!==null&&value!==''&&Number.isFinite(Number(value))?Number(value):null;
   const clamp=(value,min,max)=>Math.min(max,Math.max(min,value));
   const multiplier=value=>Math.round(clamp(finite(value)??1,0,2)*10)/10;
