@@ -46,6 +46,25 @@
     text-align: right;
   }
 
+  .holding-metric,
+  .holding-difference-metric {
+    display: grid;
+    grid-template-columns: 70px 96px minmax(0, 1fr);
+    column-gap: 9px;
+  }
+
+  .holding-metric > strong,
+  .holding-difference-metric > strong {
+    justify-self: end;
+    width: 96px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .holding-metric > small,
+  .holding-difference-metric > small {
+    margin-top: 0;
+  }
+
   .range-card {
     grid-column: 2;
     grid-row: 3;
