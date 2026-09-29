@@ -47,6 +47,8 @@
 .holding-metric small,.holding-difference-metric small,.holding-change-metric small{display:block;margin-top:5px;color:#7e92a7;font-size:.68rem}
 .holding-difference-metric.up strong,.holding-difference-metric.up small{color:#71dfac}
 .holding-difference-metric.down strong,.holding-difference-metric.down small{color:#ff8585}
+.holding-points-metric.in-range strong{color:#71dfac}
+.holding-points-metric.out-of-range strong{color:#ff8585}
 .holding-change-metric.up strong,.holding-change-metric.up small{color:#71dfac}
 .holding-change-metric.down strong,.holding-change-metric.down small{color:#ff8585}
 .portfolio-change{display:inline-flex;align-items:center;font-weight:800}

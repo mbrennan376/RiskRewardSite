@@ -46,6 +46,16 @@
     text-align: right;
   }
 
+  .risk-position-value {
+    margin-left: auto;
+  }
+
+  .risk-position-value strong,
+  .holding-points-metric strong {
+    margin-left: auto;
+    white-space: nowrap;
+  }
+
   .holding-metric,
   .holding-difference-metric {
     display: grid;
