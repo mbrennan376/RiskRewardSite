@@ -5,11 +5,11 @@
   const clamp=(value,min,max)=>Math.min(max,Math.max(min,value));
   const multiplier=value=>Math.round(clamp(finite(value)??1,0,2)*10)/10;
   const currency=value=>String(value||'USD').trim().toUpperCase()==='CAD'?'CAD':'USD';
-  function empty(){return {version:1,totalInvested:null,portfolioCurrency:'USD',alertThresholdPercent:defaultThreshold,holdings:{}};}
+  function empty(){return {version:2,totalInvested:null,portfolioCurrency:'USD',alertThresholdPercent:defaultThreshold,holdings:{}};}
   function normalize(value){
     const result=empty();if(!value||typeof value!=='object')return result;
     const total=finite(value.totalInvested),threshold=finite(value.alertThresholdPercent);result.totalInvested=total>0?total:null;result.portfolioCurrency=currency(value.portfolioCurrency);result.alertThresholdPercent=threshold===null?defaultThreshold:clamp(threshold,0,100);
-    if(value.holdings&&typeof value.holdings==='object'&&!Array.isArray(value.holdings))Object.entries(value.holdings).forEach(([ticker,item])=>{const shares=finite(item?.sharesHeld),key=String(ticker).trim().toUpperCase();if(key&&item&&typeof item==='object')result.holdings[key]={sharesHeld:shares>=0?shares:0,multiplier:multiplier(item.multiplier),configured:item.configured!==false};});
+    if(value.holdings&&typeof value.holdings==='object'&&!Array.isArray(value.holdings))Object.entries(value.holdings).forEach(([ticker,item])=>{const shares=finite(item?.sharesHeld),key=String(ticker).trim().toUpperCase(),listingCurrency=item?.listingCurrency==null?null:currency(item.listingCurrency),listingTickerSymbol=String(item?.listingTickerSymbol||'').trim().toUpperCase()||null;if(key&&item&&typeof item==='object')result.holdings[key]={sharesHeld:shares>=0?shares:0,multiplier:multiplier(item.multiplier),configured:item.configured!==false,listingCurrency,listingTickerSymbol};});
     return result;
   }
   function save(value,storage=root.localStorage){const normalized=normalize(value);storage.setItem(storageKey,JSON.stringify(normalized));return normalized;}

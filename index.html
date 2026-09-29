@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="Current risk/reward charts, personal holding targets, and portfolio actions.">
-  <title>Risk/Reward Charts</title><link rel="stylesheet" href="css/styles.css?v=20260929-3"><link rel="stylesheet" href="css/dashboard-fit.css?v=20260923-1"><link rel="stylesheet" href="css/market-status.css?v=20260923-1"><link rel="stylesheet" href="css/navigation.css?v=20260924-1">
+  <title>Risk/Reward Charts</title><link rel="stylesheet" href="css/styles.css?v=20260929-4"><link rel="stylesheet" href="css/dashboard-fit.css?v=20260923-1"><link rel="stylesheet" href="css/market-status.css?v=20260923-1"><link rel="stylesheet" href="css/navigation.css?v=20260924-1">
 </head>
 <body>
   <header class="app-header">
@@ -31,14 +31,14 @@
         <label>Portfolio currency<select id="portfolioCurrency" required><option value="USD">USD — US dollar</option><option value="CAD">CAD — Canadian dollar</option></select><small>Current, target, and difference dollars use this currency.</small></label>
         <label>Buy/sell alert tolerance<input id="alertThreshold" type="number" min="0" max="100" step="0.1" inputmode="decimal" required><small>Alert when a holding is this percentage above or below target.</small></label>
       </div>
-      <fieldset id="portfolioTickerGroup"><legend id="portfolioTicker">Holding</legend><div class="dialog-grid"><label>Shares held<input id="sharesHeld" type="number" min="0" step="any" inputmode="decimal" required></label><label>Allocation multiplier<select id="holdingMultiplier" required></select><small>0.0× to 2.0× in 0.1 increments.</small></label></div></fieldset>
+      <fieldset id="portfolioTickerGroup"><legend id="portfolioTicker">Holding</legend><div class="dialog-grid holding-fields"><label id="holdingListingField">Held symbol<select id="holdingListing" required></select><small>Choose the listing where you own the shares.</small></label><label>Shares held<input id="sharesHeld" type="number" min="0" step="any" inputmode="decimal" required></label><label>Allocation multiplier<select id="holdingMultiplier" required></select><small>0.0× to 2.0× in 0.1 increments.</small></label></div></fieldset>
       <div class="backup-row"><div><strong>Local backup</strong><small>Export or restore every saved portfolio value as JSON.</small></div><button id="exportPortfolio" class="secondary-button" type="button">Export JSON</button><button id="importPortfolio" class="secondary-button" type="button">Import JSON</button><input id="portfolioImport" type="file" accept="application/json,.json" hidden></div>
       <p id="portfolioMessage" class="dialog-message" role="status"></p>
       <div class="dialog-actions"><button class="primary-button" type="submit">Save settings</button></div>
     </form>
   </dialog>
   <dialog id="lightbox" class="lightbox-dialog"><button id="lightboxClose" class="close-button" aria-label="Close chart">×</button><img id="lightboxImage" alt="Expanded risk/reward chart"></dialog>
-  <script src="js/navigation.js?v=20260924-1" defer></script><script src="js/history.js?v=20260924-2" defer></script><script src="js/portfolio.js?v=20260929-3" defer></script><script src="js/scripts.js?v=20260929-3" defer></script>
+  <script src="js/navigation.js?v=20260924-1" defer></script><script src="js/history.js?v=20260924-2" defer></script><script src="js/portfolio.js?v=20260929-4" defer></script><script src="js/scripts.js?v=20260929-4" defer></script>
   <!-- Cloudflare Web Analytics --><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"c464d95088a84f24825ee38646ae8609"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
