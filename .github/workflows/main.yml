@@ -3,7 +3,7 @@ name: Deploy to Azure Blob Storage
 on:
   push:
     branches:
-      - main  # Adjust this to your main branch
+      - master
 
 jobs:
   deploy:

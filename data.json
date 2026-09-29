@@ -1,16 +1,602 @@
-[
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-25T20:00:28.1321875+00:00",
+  "charts": [
     {
-        "Ticker Symbol": "CTLP",
-        "Company Name": "Cantaloupe Inc",
-        "Updated Date": "2024-08-01",
-        "Chart Filename": "charts/ctlp.jpg",
-        "Comments": ""
+      "tickerSymbol": "AEHR",
+      "companyName": "Aehr Test Systems",
+      "updatedDate": "2026-09-11",
+      "chartFilename": "charts/AEHR-5d4620335112.png",
+      "imageHash": "5d46203351122426004d2efc6451d51626fdaa263f9c05ff0ec539716a12ccec",
+      "upperLine": 94,
+      "lowerLine": 10,
+      "currency": "USD",
+      "exchange": null,
+      "currencyTickerSymbols": {},
+      "comments": "",
+      "providerSymbols": {},
+      "currencyProviderSymbols": {},
+      "analysis": {
+        "status": "not-requested",
+        "provider": null,
+        "model": null,
+        "sourceImageHash": "5d46203351122426004d2efc6451d51626fdaa263f9c05ff0ec539716a12ccec",
+        "suggestedUpperLine": null,
+        "suggestedLowerLine": null,
+        "confidence": null,
+        "explanation": null,
+        "analyzedAt": null,
+        "acceptedByUser": null
+      }
     },
     {
-        "Ticker Symbol": "TPCS",
-        "Company Name": "TechPrecision Corp",
-        "Updated Date": "2024-08-01",
-        "Chart Filename": "charts/tpcs.jpg",
-        "Comments": ""
+      "tickerSymbol": "CLFD",
+      "companyName": "Clearfield Inc",
+      "updatedDate": "2026-09-11",
+      "chartFilename": "charts/CLFD-61eb7198e171.png",
+      "imageHash": "61eb7198e1712250b38206720c3a07d9c459368fc328cd54e811c84d773a310f",
+      "upperLine": 200,
+      "lowerLine": 35,
+      "currency": "USD",
+      "exchange": null,
+      "currencyTickerSymbols": {},
+      "comments": "",
+      "providerSymbols": {},
+      "currencyProviderSymbols": {},
+      "analysis": {
+        "status": "not-requested",
+        "provider": null,
+        "model": null,
+        "sourceImageHash": "61eb7198e1712250b38206720c3a07d9c459368fc328cd54e811c84d773a310f",
+        "suggestedUpperLine": null,
+        "suggestedLowerLine": null,
+        "confidence": null,
+        "explanation": null,
+        "analyzedAt": null,
+        "acceptedByUser": null
+      }
+    },
+    {
+      "tickerSymbol": "CVV",
+      "companyName": "CVD Equipment Corp",
+      "updatedDate": "2026-09-25",
+      "chartFilename": "charts/CVV-32697613438b.png",
+      "imageHash": "32697613438bd96e7d28499d8ff5e434c9da727318787cf0b4feab8ddc506e6b",
+      "upperLine": 9.5,
+      "lowerLine": 6,
+      "currency": "USD",
+      "exchange": null,
+      "currencyTickerSymbols": {
+        "USD": "CVV"
+      },
+      "comments": "",
+      "providerSymbols": {},
+      "currencyProviderSymbols": {
+        "USD": {}
+      },
+      "analysis": {
+        "status": "not-requested",
+        "provider": null,
+        "model": null,
+        "sourceImageHash": "32697613438bd96e7d28499d8ff5e434c9da727318787cf0b4feab8ddc506e6b",
+        "suggestedUpperLine": null,
+        "suggestedLowerLine": null,
+        "confidence": null,
+        "explanation": null,
+        "analyzedAt": null,
+        "acceptedByUser": null
+      }
+    },
+    {
+      "tickerSymbol": "CXDO",
+      "companyName": "Crexendo Inc",
+      "updatedDate": "2026-09-25",
+      "chartFilename": "charts/CXDO-d62fe14d62f5.png",
+      "imageHash": "d62fe14d62f5054198eba5229abdfd7d3fd41c5a489ae79c09d8c0d03658c886",
+      "upperLine": 17,
+      "lowerLine": 3.9,
+      "currency": "USD",
+      "exchange": null,
+      "currencyTickerSymbols": {
+        "USD": "CXDO"
+      },
+      "comments": "",
+      "providerSymbols": {},
+      "currencyProviderSymbols": {
+        "USD": {}
+      },
+      "analysis": {
+        "status": "not-requested",
+        "provider": null,
+        "model": null,
+        "sourceImageHash": "d62fe14d62f5054198eba5229abdfd7d3fd41c5a489ae79c09d8c0d03658c886",
+        "suggestedUpperLine": null,
+        "suggestedLowerLine": null,
+        "confidence": null,
+        "explanation": null,
+        "analyzedAt": null,
+        "acceptedByUser": null
+      }
+    },
+    {
+      "tickerSymbol": "EVLV",
+      "companyName": "Evolv Technologies Holdings Inc",
+      "updatedDate": "2026-09-25",
+      "chartFilename": "charts/EVLV-2992f5b50149.png",
+      "imageHash": "2992f5b50149f8af1c5207035867eab402047b56bab36bb8bf5fb961c1d4a70d",
+      "upperLine": 10,
+      "lowerLine": 3,
+      "currency": "USD",
+      "exchange": null,
+      "currencyTickerSymbols": {
+        "USD": "EVLV"
+      },
+      "comments": "",
+      "providerSymbols": {},
+      "currencyProviderSymbols": {
+        "USD": {}
+      },
+      "analysis": {
+        "status": "not-requested",
+        "provider": null,
+        "model": null,
+        "sourceImageHash": "2992f5b50149f8af1c5207035867eab402047b56bab36bb8bf5fb961c1d4a70d",
+        "suggestedUpperLine": null,
+        "suggestedLowerLine": null,
+        "confidence": null,
+        "explanation": null,
+        "analyzedAt": null,
+        "acceptedByUser": null
+      }
+    },
+    {
+      "tickerSymbol": "GEODF",
+      "companyName": "Geodrill Ltd",
+      "updatedDate": "2026-09-25",
+      "chartFilename": "charts/GEODF-7ac1dc2c31a2.png",
+      "imageHash": "7ac1dc2c31a2a86dc68758c9b04665e50b379e3240069abf78f00be293806e6b",
+      "upperLine": 6,
+      "lowerLine": 1.9,
+      "currency": "CAD",
+      "exchange": null,
+      "currencyTickerSymbols": {
+        "USD": "GEODF",
+        "CAD": "GEO.TO"
+      },
+      "comments": "",
+      "providerSymbols": {},
+      "currencyProviderSymbols": {
+        "USD": {},
+        "CAD": {}
+      },
+      "analysis": {
+        "status": "not-requested",
+        "provider": null,
+        "model": null,
+        "sourceImageHash": "7ac1dc2c31a2a86dc68758c9b04665e50b379e3240069abf78f00be293806e6b",
+        "suggestedUpperLine": null,
+        "suggestedLowerLine": null,
+        "confidence": null,
+        "explanation": null,
+        "analyzedAt": null,
+        "acceptedByUser": null
+      }
+    },
+    {
+      "tickerSymbol": "GKPRF",
+      "companyName": "Gatekeeper Systems Inc",
+      "updatedDate": "2026-09-25",
+      "chartFilename": "charts/GKPRF-d054596d16a3.png",
+      "imageHash": "d054596d16a3c8cebfc488798fbd3cba00be59f27754a0c9197af5d5a7a340c8",
+      "upperLine": 4,
+      "lowerLine": 0.4,
+      "currency": "CAD",
+      "exchange": null,
+      "currencyTickerSymbols": {
+        "USD": "GKPRF",
+        "CAD": "GSI.V"
+      },
+      "comments": "",
+      "providerSymbols": {},
+      "currencyProviderSymbols": {
+        "USD": {},
+        "CAD": {}
+      },
+      "analysis": {
+        "status": "not-requested",
+        "provider": null,
+        "model": null,
+        "sourceImageHash": "d054596d16a3c8cebfc488798fbd3cba00be59f27754a0c9197af5d5a7a340c8",
+        "suggestedUpperLine": null,
+        "suggestedLowerLine": null,
+        "confidence": null,
+        "explanation": null,
+        "analyzedAt": null,
+        "acceptedByUser": null
+      }
+    },
+    {
+      "tickerSymbol": "IDN",
+      "companyName": "Intellicheck Inc",
+      "updatedDate": "2026-09-11",
+      "chartFilename": "charts/IDN-4d133db3bb78.png",
+      "imageHash": "4d133db3bb782c07deedd1ec9172a07bbdfe7c4127e66cf714679aea67e62ccf",
+      "upperLine": 12,
+      "lowerLine": 2,
+      "currency": "USD",
+      "exchange": null,
+      "currencyTickerSymbols": {},
+      "comments": "",
+      "providerSymbols": {},
+      "currencyProviderSymbols": {},
+      "analysis": {
+        "status": "not-requested",
+        "provider": null,
+        "model": null,
+        "sourceImageHash": "4d133db3bb782c07deedd1ec9172a07bbdfe7c4127e66cf714679aea67e62ccf",
+        "suggestedUpperLine": null,
+        "suggestedLowerLine": null,
+        "confidence": null,
+        "explanation": null,
+        "analyzedAt": null,
+        "acceptedByUser": null
+      }
+    },
+    {
+      "tickerSymbol": "ITMSF",
+      "companyName": "Intermap Technologies Corp",
+      "updatedDate": "2026-09-25",
+      "chartFilename": "charts/ITMSF-2e8d5cf73012.png",
+      "imageHash": "2e8d5cf73012a40b457a808455e4f84af07850b84d7a57ddfe4a1e286bd297ec",
+      "upperLine": 3,
+      "lowerLine": 0.4,
+      "currency": "USD",
+      "exchange": null,
+      "currencyTickerSymbols": {
+        "USD": "ITMSF"
+      },
+      "comments": "",
+      "providerSymbols": {},
+      "currencyProviderSymbols": {
+        "USD": {}
+      },
+      "analysis": {
+        "status": "not-requested",
+        "provider": null,
+        "model": null,
+        "sourceImageHash": "2e8d5cf73012a40b457a808455e4f84af07850b84d7a57ddfe4a1e286bd297ec",
+        "suggestedUpperLine": null,
+        "suggestedLowerLine": null,
+        "confidence": null,
+        "explanation": null,
+        "analyzedAt": null,
+        "acceptedByUser": null
+      }
+    },
+    {
+      "tickerSymbol": "IWM",
+      "companyName": "iShares Russell 2000 ETF",
+      "updatedDate": "2026-09-25",
+      "chartFilename": "charts/IWM-b4cd07b7d7b7.png",
+      "imageHash": "b4cd07b7d7b7a2bbdacf90bac0c8b2c847b134ac5084ce4091154f82d46c86fb",
+      "upperLine": 290,
+      "lowerLine": 150,
+      "currency": "USD",
+      "exchange": null,
+      "currencyTickerSymbols": {
+        "USD": "IWM"
+      },
+      "comments": "",
+      "providerSymbols": {},
+      "currencyProviderSymbols": {
+        "USD": {}
+      },
+      "analysis": {
+        "status": "not-requested",
+        "provider": null,
+        "model": null,
+        "sourceImageHash": "b4cd07b7d7b7a2bbdacf90bac0c8b2c847b134ac5084ce4091154f82d46c86fb",
+        "suggestedUpperLine": null,
+        "suggestedLowerLine": null,
+        "confidence": null,
+        "explanation": null,
+        "analyzedAt": null,
+        "acceptedByUser": null
+      }
+    },
+    {
+      "tickerSymbol": "IZEA",
+      "companyName": "IZEA Worldwide Inc",
+      "updatedDate": "2026-09-25",
+      "chartFilename": "charts/IZEA-c9a47a4c6d2a.png",
+      "imageHash": "c9a47a4c6d2a65a368e2d9e428c18982ddf459ae80d860e55ec48a8d1d476665",
+      "upperLine": 12,
+      "lowerLine": 3,
+      "currency": "USD",
+      "exchange": null,
+      "currencyTickerSymbols": {
+        "USD": "IZEA"
+      },
+      "comments": "",
+      "providerSymbols": {},
+      "currencyProviderSymbols": {
+        "USD": {}
+      },
+      "analysis": {
+        "status": "not-requested",
+        "provider": null,
+        "model": null,
+        "sourceImageHash": "c9a47a4c6d2a65a368e2d9e428c18982ddf459ae80d860e55ec48a8d1d476665",
+        "suggestedUpperLine": null,
+        "suggestedLowerLine": null,
+        "confidence": null,
+        "explanation": null,
+        "analyzedAt": null,
+        "acceptedByUser": null
+      }
+    },
+    {
+      "tickerSymbol": "NVDA",
+      "companyName": "NVIDIA Corp",
+      "updatedDate": "2026-08-21",
+      "chartFilename": "charts/NVDA-445f9616cecb.png",
+      "imageHash": "445f9616cecb33858d0649c92f29009e103107961d57d42792275abaa9adcc67",
+      "upperLine": 215,
+      "lowerLine": 50,
+      "currency": "USD",
+      "exchange": null,
+      "currencyTickerSymbols": {},
+      "comments": "",
+      "providerSymbols": {},
+      "currencyProviderSymbols": {},
+      "analysis": {
+        "status": "not-requested",
+        "provider": null,
+        "model": null,
+        "sourceImageHash": "445f9616cecb33858d0649c92f29009e103107961d57d42792275abaa9adcc67",
+        "suggestedUpperLine": null,
+        "suggestedLowerLine": null,
+        "confidence": null,
+        "explanation": null,
+        "analyzedAt": null,
+        "acceptedByUser": null
+      }
+    },
+    {
+      "tickerSymbol": "OPTX",
+      "companyName": "Syntec Optics Holdings Inc",
+      "updatedDate": "2026-09-11",
+      "chartFilename": "charts/OPTX-253fe95391c0.png",
+      "imageHash": "253fe95391c01b323054aab5d56b758283de30633a67f5f11d3009dd77ee3d3d",
+      "upperLine": 14,
+      "lowerLine": 3.9,
+      "currency": "USD",
+      "exchange": null,
+      "currencyTickerSymbols": {},
+      "comments": "",
+      "providerSymbols": {},
+      "currencyProviderSymbols": {},
+      "analysis": {
+        "status": "not-requested",
+        "provider": null,
+        "model": null,
+        "sourceImageHash": "253fe95391c01b323054aab5d56b758283de30633a67f5f11d3009dd77ee3d3d",
+        "suggestedUpperLine": null,
+        "suggestedLowerLine": null,
+        "confidence": null,
+        "explanation": null,
+        "analyzedAt": null,
+        "acceptedByUser": null
+      }
+    },
+    {
+      "tickerSymbol": "QQQ",
+      "companyName": "Invesco QQQ Trust",
+      "updatedDate": "2026-09-11",
+      "chartFilename": "charts/QQQ-b906345f2a6e.png",
+      "imageHash": "b906345f2a6ea1a7451e6facadbbcfdc37a01fa1f9ac9adac9213ac6a396594a",
+      "upperLine": 700,
+      "lowerLine": 160,
+      "currency": "USD",
+      "exchange": null,
+      "currencyTickerSymbols": {},
+      "comments": "",
+      "providerSymbols": {},
+      "currencyProviderSymbols": {},
+      "analysis": {
+        "status": "not-requested",
+        "provider": null,
+        "model": null,
+        "sourceImageHash": "b906345f2a6ea1a7451e6facadbbcfdc37a01fa1f9ac9adac9213ac6a396594a",
+        "suggestedUpperLine": null,
+        "suggestedLowerLine": null,
+        "confidence": null,
+        "explanation": null,
+        "analyzedAt": null,
+        "acceptedByUser": null
+      }
+    },
+    {
+      "tickerSymbol": "RDCM",
+      "companyName": "RADCOM Ltd",
+      "updatedDate": "2026-09-11",
+      "chartFilename": "charts/RDCM-d87e1b981d1e.png",
+      "imageHash": "d87e1b981d1e3ad96f9871b24075171c975c1823b80f4ab675a31c983dc5ad7a",
+      "upperLine": 25,
+      "lowerLine": 10,
+      "currency": "USD",
+      "exchange": null,
+      "currencyTickerSymbols": {},
+      "comments": "",
+      "providerSymbols": {},
+      "currencyProviderSymbols": {},
+      "analysis": {
+        "status": "not-requested",
+        "provider": null,
+        "model": null,
+        "sourceImageHash": "d87e1b981d1e3ad96f9871b24075171c975c1823b80f4ab675a31c983dc5ad7a",
+        "suggestedUpperLine": null,
+        "suggestedLowerLine": null,
+        "confidence": null,
+        "explanation": null,
+        "analyzedAt": null,
+        "acceptedByUser": null
+      }
+    },
+    {
+      "tickerSymbol": "SPY",
+      "companyName": "SPY",
+      "updatedDate": "2026-09-25",
+      "chartFilename": "charts/SPY-4cffb80e10ab.png",
+      "imageHash": "4cffb80e10abb2c1f33fff27506747db82f3b4f641813e9c3a894864390cd973",
+      "upperLine": 7500,
+      "lowerLine": 2400,
+      "currency": "USD",
+      "exchange": null,
+      "currencyTickerSymbols": {
+        "USD": "SPY"
+      },
+      "comments": "",
+      "providerSymbols": {},
+      "currencyProviderSymbols": {
+        "USD": {}
+      },
+      "analysis": {
+        "status": "not-requested",
+        "provider": null,
+        "model": null,
+        "sourceImageHash": "4cffb80e10abb2c1f33fff27506747db82f3b4f641813e9c3a894864390cd973",
+        "suggestedUpperLine": null,
+        "suggestedLowerLine": null,
+        "confidence": null,
+        "explanation": null,
+        "analyzedAt": null,
+        "acceptedByUser": null
+      }
+    },
+    {
+      "tickerSymbol": "TPCS",
+      "companyName": "TechPrecision Corp",
+      "updatedDate": "2026-09-25",
+      "chartFilename": "charts/TPCS-f17b68cb88c8.png",
+      "imageHash": "f17b68cb88c811a0ed8cb3e5948149853398d46a5291e0ab44c7a5114a8e8dde",
+      "upperLine": 15,
+      "lowerLine": 3.75,
+      "currency": "USD",
+      "exchange": null,
+      "currencyTickerSymbols": {
+        "USD": "TPCS"
+      },
+      "comments": "",
+      "providerSymbols": {},
+      "currencyProviderSymbols": {
+        "USD": {}
+      },
+      "analysis": {
+        "status": "not-requested",
+        "provider": null,
+        "model": null,
+        "sourceImageHash": "f17b68cb88c811a0ed8cb3e5948149853398d46a5291e0ab44c7a5114a8e8dde",
+        "suggestedUpperLine": null,
+        "suggestedLowerLine": null,
+        "confidence": null,
+        "explanation": null,
+        "analyzedAt": null,
+        "acceptedByUser": null
+      }
+    },
+    {
+      "tickerSymbol": "TSSI",
+      "companyName": "TSS Inc",
+      "updatedDate": "2026-09-25",
+      "chartFilename": "charts/TSSI-a1002d205430.png",
+      "imageHash": "a1002d205430829da09a6e1720d78c2ccb94bce6ff602a876f81deadb2335944",
+      "upperLine": 25,
+      "lowerLine": 5,
+      "currency": "USD",
+      "exchange": null,
+      "currencyTickerSymbols": {
+        "USD": "TSSI"
+      },
+      "comments": "",
+      "providerSymbols": {},
+      "currencyProviderSymbols": {
+        "USD": {}
+      },
+      "analysis": {
+        "status": "not-requested",
+        "provider": null,
+        "model": null,
+        "sourceImageHash": "a1002d205430829da09a6e1720d78c2ccb94bce6ff602a876f81deadb2335944",
+        "suggestedUpperLine": null,
+        "suggestedLowerLine": null,
+        "confidence": null,
+        "explanation": null,
+        "analyzedAt": null,
+        "acceptedByUser": null
+      }
+    },
+    {
+      "tickerSymbol": "VTSI",
+      "companyName": "VirTra Inc",
+      "updatedDate": "2026-09-25",
+      "chartFilename": "charts/VTSI-3f822f103893.png",
+      "imageHash": "3f822f103893a17c671251a241d08135f2b063b4df87b851d669c10d638056b1",
+      "upperLine": 30,
+      "lowerLine": 4.5,
+      "currency": "USD",
+      "exchange": null,
+      "currencyTickerSymbols": {
+        "USD": "VTSI"
+      },
+      "comments": "",
+      "providerSymbols": {},
+      "currencyProviderSymbols": {
+        "USD": {}
+      },
+      "analysis": {
+        "status": "not-requested",
+        "provider": null,
+        "model": null,
+        "sourceImageHash": "3f822f103893a17c671251a241d08135f2b063b4df87b851d669c10d638056b1",
+        "suggestedUpperLine": null,
+        "suggestedLowerLine": null,
+        "confidence": null,
+        "explanation": null,
+        "analyzedAt": null,
+        "acceptedByUser": null
+      }
+    },
+    {
+      "tickerSymbol": "WATT",
+      "companyName": "Energous Corp",
+      "updatedDate": "2026-09-25",
+      "chartFilename": "charts/WATT-3f1002e249b8.png",
+      "imageHash": "3f1002e249b8b215cfe86f08a9bf081551f8463d401abaf01783398d78d91cd0",
+      "upperLine": 50,
+      "lowerLine": 10,
+      "currency": "USD",
+      "exchange": null,
+      "currencyTickerSymbols": {
+        "USD": "WATT"
+      },
+      "comments": "",
+      "providerSymbols": {},
+      "currencyProviderSymbols": {
+        "USD": {}
+      },
+      "analysis": {
+        "status": "not-requested",
+        "provider": null,
+        "model": null,
+        "sourceImageHash": "3f1002e249b8b215cfe86f08a9bf081551f8463d401abaf01783398d78d91cd0",
+        "suggestedUpperLine": null,
+        "suggestedLowerLine": null,
+        "confidence": null,
+        "explanation": null,
+        "analyzedAt": null,
+        "acceptedByUser": null
+      }
     }
-]
+  ]
+}
