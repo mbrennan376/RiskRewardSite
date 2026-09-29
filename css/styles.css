@@ -28,8 +28,6 @@
 .risk-position-metric .range-status.above{border:1px solid #a74551;background:#3b171d;color:#ff9da7}
 .risk-position-metric .range-status.below{border:1px solid #287a5a;background:#123c2f;color:#91e6bf}
 .personal-allocation{margin-top:11px;padding-top:10px;border-top:1px solid #26364a}
-.target-investment{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:2px}
-.allocation-metric .target-investment strong{margin:0;color:#dff4ff;font-size:1.05rem}
 .personal-allocation>small{display:block;color:#8296aa;font-size:.66rem;line-height:1.35}
 .portfolio-form{display:flex;gap:6px;margin-top:8px}
 .portfolio-form input{min-width:0;width:100%;border:1px solid #2b3b50;border-radius:8px;background:#080d13;color:#eef5fc;padding:7px 8px;font:inherit;font-size:.72rem;outline:none}
@@ -52,7 +50,9 @@
 @media(max-width:700px){.actions-table-shell{border:0;background:transparent;overflow:visible}.actions-table,.actions-table tbody{display:block}.actions-table thead{display:none}.actions-table tr{display:block;margin-bottom:12px;border:1px solid #26364a;border-radius:14px;background:#0d141d;overflow:hidden}.actions-table td{display:grid;grid-template-columns:100px minmax(0,1fr);align-items:center;gap:10px;padding:10px 13px}.actions-table td::before{content:attr(data-label);color:#71869b;font-size:.6rem;font-weight:850;letter-spacing:.07em;text-transform:uppercase}.actions-table .action-update-cell{display:block;text-align:left}.actions-table .action-update-cell::before{content:none}.actions-table .action-update{width:100%}}
 
 /* Holding value and daily movement */
-.holding-metric small,.holding-change-metric small{display:block;margin-top:5px;color:#7e92a7;font-size:.68rem}
+.holding-metric small,.holding-difference-metric small,.holding-change-metric small{display:block;margin-top:5px;color:#7e92a7;font-size:.68rem}
+.holding-difference-metric.up strong,.holding-difference-metric.up small{color:#71dfac}
+.holding-difference-metric.down strong,.holding-difference-metric.down small{color:#ff8585}
 .holding-change-metric.up strong,.holding-change-metric.up small{color:#71dfac}
 .holding-change-metric.down strong,.holding-change-metric.down small{color:#ff8585}
 .portfolio-change{display:inline-flex;align-items:center;font-weight:800}
