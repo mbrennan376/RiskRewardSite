@@ -5,6 +5,14 @@
         "link": "index.html"
     },
     {
+        "title": "About",
+        "link": "about.html"
+    },
+    {
+        "title": "Methodology",
+        "link": "methodology.html"
+    },
+    {
         "title": "Mark Gomes Research",
         "icon": "icons/gomes.png",
         "link": "https://markgomesstocks.wordpress.com/"
