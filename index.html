@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="Current risk/reward charts and personal holding targets.">
-  <title>Risk/Reward Charts</title><link rel="stylesheet" href="css/styles.css?v=20261022-1"><link rel="stylesheet" href="css/dashboard-fit.css?v=20260929-3"><link rel="stylesheet" href="css/market-status.css?v=20261111-1"><link rel="stylesheet" href="css/navigation.css?v=20260924-1">
+  <title>Risk/Reward Charts</title><link rel="stylesheet" href="css/styles.css?v=20261113-1"><link rel="stylesheet" href="css/dashboard-fit.css?v=20260929-3"><link rel="stylesheet" href="css/market-status.css?v=20261111-1"><link rel="stylesheet" href="css/navigation.css?v=20260924-1">
 </head>
 <body>
   <header class="app-header">
@@ -38,11 +38,11 @@
       <p class="dialog-intro">Set the shares and target multiplier for this stock.</p>
       <div class="dialog-grid holding-fields"><label id="holdingListingField">Held symbol<select id="holdingListing" required></select><small>Choose the listing where you own the shares.</small></label><label>Shares held<input id="sharesHeld" type="number" min="0" step="any" inputmode="decimal" required></label><label>Allocation multiplier<select id="holdingMultiplier" required></select><small>0.0× to 2.0× in 0.1 increments.</small></label></div>
       <p id="holdingMessage" class="dialog-message" role="status"></p>
-      <div class="dialog-actions"><button class="primary-button" type="submit">Save holding</button></div>
+      <div class="dialog-actions"><button id="removeHolding" class="secondary-button remove-holding" type="button" title="Use this when you have sold all your shares" hidden>Remove holding</button><button class="primary-button" type="submit">Save holding</button></div>
     </form>
   </dialog>
   <dialog id="lightbox" class="lightbox-dialog"><button id="lightboxClose" class="close-button" aria-label="Close chart">×</button><img id="lightboxImage" alt="Expanded risk/reward chart"></dialog>
-  <script src="js/navigation.js?v=20260924-1" defer></script><script src="js/history.js?v=20260924-2" defer></script><script src="js/portfolio.js?v=20260929-6" defer></script><script src="js/scripts.js?v=20261113-1" defer></script>
+  <script src="js/navigation.js?v=20260924-1" defer></script><script src="js/history.js?v=20260924-2" defer></script><script src="js/portfolio.js?v=20260929-6" defer></script><script src="js/scripts.js?v=20261113-2" defer></script>
   <!-- Cloudflare Web Analytics --><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"c464d95088a84f24825ee38646ae8609"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
